@@ -10,10 +10,10 @@
 # # Function to connect to AWS RDS MySQL database
 # def get_db_connection():
 #     return mysql.connector.connect(
-#         host='flashdb.c7g4csqm6jl5.us-east-1.rds.amazonaws.com',  
+#         host='clonedb.cvcweiusacog.us-east-1.rds.amazonaws.com',  
 #         user='admin',
 #         password='Flaskdb69',
-#         database='flashdb'
+#         database='clone_db'
 #     )
 
 # # Home Route
@@ -74,8 +74,8 @@
 # def dashboard():
 #     # Example URLs for course material from S3
 #     course_urls = [
-#         "https://flasknm.s3.us-east-1.amazonaws.com/DC_UNIT3.pdf",
-#         "https://flasknm.s3.us-east-1.amazonaws.com/DL_UNIT3.pdf"
+#         "https://clonebucket23.s3.us-east-1.amazonaws.com/Internshala+Assignment+(1).pdf",
+#         "https://clonebucket23.s3.us-east-1.amazonaws.com/web+security+issues+and+tranpost+layer.pdf"
 #     ]
 #     return render_template('dashboard.html', course_urls=course_urls)
 
